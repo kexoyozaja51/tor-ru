@@ -3,6 +3,6 @@ services:
     build: .
     restart: unless-stopped
     ports:
-      - "127.0.0.1:9051:9050"
+      - "127.0.0.1:9052:9050"
     volumes:
       - ./torrc:/etc/tor/torrc:ro
